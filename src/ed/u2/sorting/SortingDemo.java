@@ -14,21 +14,26 @@ public class SortingDemo {
         int[] E = {9, 1, 8, 2};
 
         // Probar cada uno con trazas
-        probarInsertion("A", A);
-        probarInsertion("B", B);
-        probarInsertion("C", C);
-        probarInsertion("D", D);
-        probarInsertion("E", E);
+        probar("A", A);
+        probar("B", B);
+        probar("C", C);
+        probar("D", D);
+        probar("E", E);
     }
 
     // Método que prueba un dataset usando insertion sort con trazas
-    private static void probarInsertion(String nombre, int[] original) {
+    private static void probar(String nombre, int[] original) {
         System.out.println("\n===== PROBANDO DATASET " + nombre + " =====");
 
         int[] copia = Arrays.copyOf(original, original.length);
+        int[] copia2 = Arrays.copyOf(original, original.length);
 
         InsertionSort.sort(copia, true); // con trazas
 
         System.out.println("Resultado final: " + Arrays.toString(copia));
+
+        System.out.println("\n--- SelectionSort ---");
+        SelectionSort.sort(copia2, true);
+        System.out.println("Resultado final: " + Arrays.toString(copia2));
     }
 }
