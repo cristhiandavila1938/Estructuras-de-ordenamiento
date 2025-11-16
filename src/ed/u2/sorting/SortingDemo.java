@@ -21,14 +21,24 @@ public class SortingDemo {
         probar("E", E);
     }
 
-    // Método que prueba un dataset usando insertion sort con trazas
+    // Método que prueba un dataset usando insertion, selection y bubble sort con trazas
     private static void probar(String nombre, int[] original) {
         System.out.println("\n===== PROBANDO DATASET " + nombre + " =====");
 
-        int[] copia = Arrays.copyOf(original, original.length);
+        int[] copiaInsertion = Arrays.copyOf(original, original.length);
+        int[] copiaSelection = Arrays.copyOf(original, original.length);
+        int[] copiaBubble = Arrays.copyOf(original, original.length);
 
-        InsertionSort.sort(copia, true); // con trazas
+        System.out.println("\n ----- Metodo InsertionSort -----");
+        InsertionSort.sort(copiaInsertion, true); // con trazas
+        System.out.println("Resultado final: " + Arrays.toString(copiaInsertion));
 
-        System.out.println("Resultado final: " + Arrays.toString(copia));
+        System.out.println("\n----- Metodo SelectionSort -----");
+        SelectionSort.sort(copiaSelection, true);
+        System.out.println("Resultado final: " + Arrays.toString(copiaSelection));
+
+        System.out.println("\n----- Metodo BubbleSort -----");
+        BubbleSort.sort(copiaBubble, true);
+        System.out.println("Resultado final: " + Arrays.toString(copiaBubble));
     }
 }
