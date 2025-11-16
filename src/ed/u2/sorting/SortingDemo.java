@@ -26,14 +26,9 @@ public class SortingDemo {
         System.out.println("\n===== PROBANDO DATASET " + nombre + " =====");
 
         int[] copia = Arrays.copyOf(original, original.length);
-        int[] copia2 = Arrays.copyOf(original, original.length);
 
         InsertionSort.sort(copia, true); // con trazas
 
         System.out.println("Resultado final: " + Arrays.toString(copia));
-
-        System.out.println("\n--- SelectionSort ---");
-        SelectionSort.sort(copia2, true);
-        System.out.println("Resultado final: " + Arrays.toString(copia2));
     }
 }

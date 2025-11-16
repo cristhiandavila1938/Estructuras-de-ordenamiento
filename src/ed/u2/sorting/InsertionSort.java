@@ -6,8 +6,11 @@ public class InsertionSort {
     // Versión con opción de trazas
     public static void sort(int[] a, boolean trace) {
         int n = a.length;
+        int contador = 0; // un contador siempre lo vamos incializar en 0 y lo ponemos para ver el numero de iteraciones que se hacen en caso de que el trace este en false
 
         for (int i = 1; i < n; i++) {
+            contador++;
+
             int actual = a[i];       // elemento a insertar
             int j = i - 1;
 
@@ -26,6 +29,7 @@ public class InsertionSort {
                 printArray(a);
             }
         }
+        System.out.println("numero de itaraciones: " + contador);
     }
 
     private static void printArray(int[] a) {
