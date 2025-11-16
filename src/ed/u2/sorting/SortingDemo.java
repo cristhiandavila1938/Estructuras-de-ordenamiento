@@ -12,6 +12,7 @@ public class SortingDemo {
         int[] C = {1, 2, 3, 4, 5};
         int[] D = {2, 2, 2, 2};
         int[] E = {9, 1, 8, 2};
+        int[] F = {};
 
         // Probar cada uno con trazas
         probarInsertion("A", A);
@@ -19,6 +20,7 @@ public class SortingDemo {
         probarInsertion("C", C);
         probarInsertion("D", D);
         probarInsertion("E", E);
+        probarInsertion("F", F);
     }
 
     // Método que prueba un dataset usando insertion sort con trazas
