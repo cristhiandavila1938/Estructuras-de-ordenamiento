@@ -9,11 +9,9 @@ public class InsertionSort {
         int contador = 0; // un contador siempre lo vamos incializar en 0 y lo ponemos para ver el numero de iteraciones que se hacen en caso de que el trace este en false
 
         for (int i = 1; i < n; i++) {
-            contador++;
-
-            int actual = a[i];       // elemento a insertar
+            contador++; // contar una iteración completa del algoritmo
+            int actual = a[i];// elemento a insertar
             int j = i - 1;
-
             // Mover elementos mayores que key hacia la derecha
             while (j >= 0 && a[j] > actual) {
                 a[j + 1] = a[j];
