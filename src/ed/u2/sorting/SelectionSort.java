@@ -7,6 +7,7 @@ public final class SelectionSort {
     public static void sort(int[] a, boolean trace) {
         int n = a.length;
         int contador = 0;
+        int swaps = 0;
 
         // i representa la posición donde irá el siguiente elemento más pequeño
         for (int i = 0; i < n -1; i++){
@@ -26,6 +27,7 @@ public final class SelectionSort {
                 int temp = a[i];
                 a[i] = a[min];
                 a[min] = temp;
+                swaps++;
             }
 
             //Mostrar trazas si está activado
@@ -34,6 +36,8 @@ public final class SelectionSort {
                 printArray(a);
             }
         }
+        //Imprime el numero de swaps
+        System.out.println("Número de swaps: " + swaps);
         //Imprime o muestra el numero de iteraciones con el contador
         System.out.println("Numero de iteraciones: " + contador);
     }

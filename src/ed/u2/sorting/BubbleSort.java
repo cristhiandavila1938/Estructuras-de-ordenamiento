@@ -8,6 +8,7 @@ public final class BubbleSort {
 
         int n = a.length;
         int contador = 0; //Contador para saber cuantas iteraciones se han realizado
+        int swaps = 0;
 
         for (int i = 0; i < n - 1; i++) { // este primer for recorre todo el arreglo
             boolean huboSwap = false; // es para que en caso de que el arreglo ya este ordenado simplemente haya como un corte y se detenga antes
@@ -17,6 +18,7 @@ public final class BubbleSort {
                     int temporal = a[j]; //
                     a[j] = a[j + 1]; // se mueve el elemento menor hacia adelante osea la posicion j
                     a[j + 1] = temporal; // este coloca el elemento mayor en la posicion j + 1
+                    swaps++;
                     huboSwap = true; // este para marcar que en la pasada hubo algun intercambio haciendo uso de la actovacion de la optimizacion de corte temprano
                 }
             }
@@ -30,6 +32,8 @@ public final class BubbleSort {
             // optimización: si no hubo swaps, el arreglo ya está ordenado
             if (!huboSwap) break;
         }
+        //imprime numero de swaps que se realizo
+        System.out.println("Número de swaps: " + swaps);
 
         // imprimir contador SOLO al final
         System.out.println("Contador de iteraciones: " + contador);
