@@ -8,17 +8,20 @@ import java.util.Arrays;
 public class SortingDemo {
     public static void main(String[] args) throws IOException {
 
+        //Guardar en un archivo txt
         PrintWriter archivo = new PrintWriter(new FileWriter("Salidas_Trazas.txt"));
-        PrintStream consola = System.out;
+
+        //Metodo para ver la salida en consola y guardar en archivo txt
+        PrintStream consola = System.out; // Guardamos la consola original
         PrintStream salidaDoble = new PrintStream(new OutputStream() {
             @Override
             public void write(int b) throws IOException {
-                consola.write(b);
-                archivo.write(b);
+                consola.write(b); //Se imprime en consola
+                archivo.write(b); //Se guarda en el archivo txt
             }
         });
 
-        System.setOut(salidaDoble);
+        System.setOut(salidaDoble); //imprime en consola y archivo txt
 
 
             // DATASETS del taller
