@@ -1,6 +1,6 @@
 package ed.u2.sorting;
 
-public class SelectionSort {
+public final class SelectionSort {
     private SelectionSort() {} //Constructor privado para evita instanciar la clase
 
     //Version con opcion de trazas

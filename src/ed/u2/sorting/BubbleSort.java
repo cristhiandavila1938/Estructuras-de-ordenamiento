@@ -1,6 +1,6 @@
 package ed.u2.sorting;
 
-public class BubbleSort {
+public final class BubbleSort {
 
     private BubbleSort() {} // evitar instanciar la clas
 

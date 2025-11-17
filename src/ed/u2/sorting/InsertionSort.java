@@ -1,6 +1,6 @@
 package ed.u2.sorting;
 
-public class InsertionSort {
+public final class InsertionSort {
     private InsertionSort() {} // evitar instanciar la clase
 
     // Versión con opción de trazas
