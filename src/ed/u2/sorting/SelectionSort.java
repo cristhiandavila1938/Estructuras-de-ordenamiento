@@ -37,7 +37,7 @@ public final class SelectionSort {
             }
         }
         //Imprime el numero de swaps
-        System.out.println("Número de swaps: " + swaps);
+        System.out.println("Numero de swaps: " + swaps);
         //Imprime o muestra el numero de iteraciones con el contador
         System.out.println("Numero de iteraciones: " + contador);
     }

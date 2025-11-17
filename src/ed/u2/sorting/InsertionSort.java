@@ -23,7 +23,7 @@ public final class InsertionSort {
 
             // Imprimir traza si está activada
             if (trace) {
-                System.out.print("Iteración " + i + ": ");
+                System.out.print("Iteracion " + i + ": ");
                 printArray(a);
             }
         }

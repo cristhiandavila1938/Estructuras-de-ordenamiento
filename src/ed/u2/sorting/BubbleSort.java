@@ -25,7 +25,7 @@ public final class BubbleSort {
 
             // mostrar traza por iteración
             if (trace) {
-                System.out.print("Iteración " + (i + 1) + ": ");
+                System.out.print("Iteracion " + (i + 1) + ": ");
                 printArray(a);
             }
 
@@ -33,7 +33,7 @@ public final class BubbleSort {
             if (!huboSwap) break;
         }
         //imprime numero de swaps que se realizo
-        System.out.println("Número de swaps: " + swaps);
+        System.out.println("Numero de swaps: " + swaps);
 
         // imprimir contador SOLO al final
         System.out.println("Contador de iteraciones: " + contador);
