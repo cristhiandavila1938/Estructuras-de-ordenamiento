@@ -126,3 +126,158 @@ Iteracion 3: [1, 2, 8, 9]
 Numero de swaps: 4
 Contador de iteraciones: 3
 Resultado final: [1, 2, 8, 9]
+
+===== PROBANDO DATASET F =====
+
+ ----- Metodo InsertionSort -----
+numero de itaraciones: 0
+Resultado final: []
+
+----- Metodo SelectionSort -----
+Numero de swaps: 0
+Numero de iteraciones: 0
+Resultado final: []
+
+----- Metodo BubbleSort -----
+Numero de swaps: 0
+Contador de iteraciones: 0
+Resultado final: []
+
+===== PROBANDO DATASET G =====
+
+ ----- Metodo InsertionSort -----
+numero de itaraciones: 0
+Resultado final: [7]
+
+----- Metodo SelectionSort -----
+Numero de swaps: 0
+Numero de iteraciones: 0
+Resultado final: [7]
+
+----- Metodo BubbleSort -----
+Numero de swaps: 0
+Contador de iteraciones: 0
+Resultado final: [7]
+
+===== PROBANDO DATASET H =====
+
+ ----- Metodo InsertionSort -----
+Iteracion 1: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Iteracion 2: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Iteracion 3: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Iteracion 4: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Iteracion 5: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Iteracion 6: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Iteracion 7: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Iteracion 8: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Iteracion 9: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+numero de itaraciones: 9
+Resultado final: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+----- Metodo SelectionSort -----
+Iteraciￃﾳn 1: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Iteraciￃﾳn 2: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Iteraciￃﾳn 3: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Iteraciￃﾳn 4: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Iteraciￃﾳn 5: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Iteraciￃﾳn 6: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Iteraciￃﾳn 7: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Iteraciￃﾳn 8: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Iteraciￃﾳn 9: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Numero de swaps: 0
+Numero de iteraciones: 9
+Resultado final: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+----- Metodo BubbleSort -----
+Iteracion 1: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Numero de swaps: 0
+Contador de iteraciones: 1
+Resultado final: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+===== PROBANDO DATASET J =====
+
+ ----- Metodo InsertionSort -----
+Iteracion 1: [9, 10, 8, 7, 6, 5, 4, 3, 2, 1]
+Iteracion 2: [8, 9, 10, 7, 6, 5, 4, 3, 2, 1]
+Iteracion 3: [7, 8, 9, 10, 6, 5, 4, 3, 2, 1]
+Iteracion 4: [6, 7, 8, 9, 10, 5, 4, 3, 2, 1]
+Iteracion 5: [5, 6, 7, 8, 9, 10, 4, 3, 2, 1]
+Iteracion 6: [4, 5, 6, 7, 8, 9, 10, 3, 2, 1]
+Iteracion 7: [3, 4, 5, 6, 7, 8, 9, 10, 2, 1]
+Iteracion 8: [2, 3, 4, 5, 6, 7, 8, 9, 10, 1]
+Iteracion 9: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+numero de itaraciones: 9
+Resultado final: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+----- Metodo SelectionSort -----
+Iteraciￃﾳn 1: [1, 9, 8, 7, 6, 5, 4, 3, 2, 10]
+Iteraciￃﾳn 2: [1, 2, 8, 7, 6, 5, 4, 3, 9, 10]
+Iteraciￃﾳn 3: [1, 2, 3, 7, 6, 5, 4, 8, 9, 10]
+Iteraciￃﾳn 4: [1, 2, 3, 4, 6, 5, 7, 8, 9, 10]
+Iteraciￃﾳn 5: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Iteraciￃﾳn 6: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Iteraciￃﾳn 7: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Iteraciￃﾳn 8: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Iteraciￃﾳn 9: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Numero de swaps: 5
+Numero de iteraciones: 9
+Resultado final: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+----- Metodo BubbleSort -----
+Iteracion 1: [9, 8, 7, 6, 5, 4, 3, 2, 1, 10]
+Iteracion 2: [8, 7, 6, 5, 4, 3, 2, 1, 9, 10]
+Iteracion 3: [7, 6, 5, 4, 3, 2, 1, 8, 9, 10]
+Iteracion 4: [6, 5, 4, 3, 2, 1, 7, 8, 9, 10]
+Iteracion 5: [5, 4, 3, 2, 1, 6, 7, 8, 9, 10]
+Iteracion 6: [4, 3, 2, 1, 5, 6, 7, 8, 9, 10]
+Iteracion 7: [3, 2, 1, 4, 5, 6, 7, 8, 9, 10]
+Iteracion 8: [2, 1, 3, 4, 5, 6, 7, 8, 9, 10]
+Iteracion 9: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Numero de swaps: 45
+Contador de iteraciones: 9
+Resultado final: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+===== PROBANDO DATASET K =====
+
+ ----- Metodo InsertionSort -----
+Iteracion 1: [9, 10, 2, 2, 10, 5, 9, 9, 2, 1]
+Iteracion 2: [2, 9, 10, 2, 10, 5, 9, 9, 2, 1]
+Iteracion 3: [2, 2, 9, 10, 10, 5, 9, 9, 2, 1]
+Iteracion 4: [2, 2, 9, 10, 10, 5, 9, 9, 2, 1]
+Iteracion 5: [2, 2, 5, 9, 10, 10, 9, 9, 2, 1]
+Iteracion 6: [2, 2, 5, 9, 9, 10, 10, 9, 2, 1]
+Iteracion 7: [2, 2, 5, 9, 9, 9, 10, 10, 2, 1]
+Iteracion 8: [2, 2, 2, 5, 9, 9, 9, 10, 10, 1]
+Iteracion 9: [1, 2, 2, 2, 5, 9, 9, 9, 10, 10]
+numero de itaraciones: 9
+Resultado final: [1, 2, 2, 2, 5, 9, 9, 9, 10, 10]
+
+----- Metodo SelectionSort -----
+Iteraciￃﾳn 1: [1, 9, 2, 2, 10, 5, 9, 9, 2, 10]
+Iteraciￃﾳn 2: [1, 2, 9, 2, 10, 5, 9, 9, 2, 10]
+Iteraciￃﾳn 3: [1, 2, 2, 9, 10, 5, 9, 9, 2, 10]
+Iteraciￃﾳn 4: [1, 2, 2, 2, 10, 5, 9, 9, 9, 10]
+Iteraciￃﾳn 5: [1, 2, 2, 2, 5, 10, 9, 9, 9, 10]
+Iteraciￃﾳn 6: [1, 2, 2, 2, 5, 9, 10, 9, 9, 10]
+Iteraciￃﾳn 7: [1, 2, 2, 2, 5, 9, 9, 10, 9, 10]
+Iteraciￃﾳn 8: [1, 2, 2, 2, 5, 9, 9, 9, 10, 10]
+Iteraciￃﾳn 9: [1, 2, 2, 2, 5, 9, 9, 9, 10, 10]
+Numero de swaps: 8
+Numero de iteraciones: 9
+Resultado final: [1, 2, 2, 2, 5, 9, 9, 9, 10, 10]
+
+----- Metodo BubbleSort -----
+Iteracion 1: [9, 2, 2, 10, 5, 9, 9, 2, 1, 10]
+Iteracion 2: [2, 2, 9, 5, 9, 9, 2, 1, 10, 10]
+Iteracion 3: [2, 2, 5, 9, 9, 2, 1, 9, 10, 10]
+Iteracion 4: [2, 2, 5, 9, 2, 1, 9, 9, 10, 10]
+Iteracion 5: [2, 2, 5, 2, 1, 9, 9, 9, 10, 10]
+Iteracion 6: [2, 2, 2, 1, 5, 9, 9, 9, 10, 10]
+Iteracion 7: [2, 2, 1, 2, 5, 9, 9, 9, 10, 10]
+Iteracion 8: [2, 1, 2, 2, 5, 9, 9, 9, 10, 10]
+Iteracion 9: [1, 2, 2, 2, 5, 9, 9, 9, 10, 10]
+Numero de swaps: 27
+Contador de iteraciones: 9
+Resultado final: [1, 2, 2, 2, 5, 9, 9, 9, 10, 10]
+
+ Se ha guardado correctamente en Salidas_Trazas.txt

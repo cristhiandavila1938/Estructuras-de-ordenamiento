@@ -31,12 +31,29 @@ public class SortingDemo {
             int[] D = {2, 2, 2, 2};
             int[] E = {9, 1, 8, 2};
 
+        // Casos Borde
+        // 1. Cuando el Arreglo esta vacio
+        int[] F = { };
+        // 2. Cuando el tamaño del Arreglo es de 1
+        int[] G = {7};
+        // 3. Cuando el Arreglo esta ordenado
+        int[] H = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        // 4. Cuando el Arreglo esta en orden inverso
+        int[] J = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
+        // 5. Cuando el Arreglo esta con duplicados
+        int[] K = {10, 9, 2, 2, 10, 5, 9, 9, 2, 1};
+
             // Probar cada uno con trazas
             probar("A", A);
             probar("B", B);
             probar("C", C);
             probar("D", D);
             probar("E", E);
+            probar("F", F);
+            probar("G", G);
+            probar("H", H);
+            probar("J", J);
+            probar("K", K);
 
         System.out.println("\n Se ha guardado correctamente en Salidas_Trazas.txt");
         archivo.close();
