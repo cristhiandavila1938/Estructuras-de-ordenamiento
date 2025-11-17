@@ -24,7 +24,7 @@ public class SortingDemo {
     // Método que prueba un dataset usando insertion sort con trazas
     private static void probar(String nombre, int[] original) {
         System.out.println("\n===== PROBANDO DATASET " + nombre + " =====");
-
+        
         int[] copia = Arrays.copyOf(original, original.length);
 
         InsertionSort.sort(copia, true); // con trazas
